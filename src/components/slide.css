@@ -1,0 +1,47 @@
+/* .slides {
+  background-image: linear-gradient(white, white, white, #9776a3);
+} */
+
+.slide-container {
+  width: 90%;
+  height: 90vh;
+  margin: auto; 
+  overflow-x: hidden;
+}
+
+h3 {
+  text-align: center; }
+
+.each-slide > div {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.each-slide p {
+  padding: 20px;
+  font-size: 20px;
+  /* background: #ebd9ee; */
+  text-align: center;
+  margin-top: 80vh;
+}
+
+div.react-slideshow-wrapper.slide {
+  overflow: unset;
+}
+
+div.react-slideshow-container + div.indicators > div{
+height: 1em;
+width: 1em;
+}
+
+div.react-slideshow-container + div.indicators > div.active{
+  background: purple;
+}
+
+.slides p{
+  text-align: center;
+}
